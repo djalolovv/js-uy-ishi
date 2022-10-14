@@ -1,0 +1,40 @@
+body{
+    background-image: url("../img/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    box-sizing: border-box;
+}
+.btn-img{
+    width: 150px;
+    height:80px;
+}
+.btn-img1{
+    display: none;
+}
+.btn-img2{
+    display: none;
+}
+.btn-img3{
+    display: none;
+}
+.btns{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.btn-1,.btn-2,.btn-3{
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.btn-style:hover{
+    background-color: black;
+    color: red;
+}
+.open{
+    display: block;
+}
