@@ -21,9 +21,8 @@ btn2.addEventListener("click", function(){
 } )
 btn3.addEventListener("click", function(){
     alert("JS")
-    console.log(prompt("Js da deasign nima?"));
     console.log(prompt("Framework nima? va u js kerakmi?"));
-    console.log(prompt("Node Js framworkmi?"));
-    console.log(prompt("JS da varni deasign qilsa bo'ladimi?"));
+    console.log(prompt("Node Js frameworkmi?"));
+    console.log(prompt("JS da varni kamchiliklari nimadan iborat?"));
     btnImg3.classList.add("open")
 } )
